@@ -9,7 +9,7 @@
       <payload>010301010001D436</payload>
     </packet>
     <packet name="Modify slave address register (0x01)">
-      <payload>1006010100011B77</payload>
+      <payload>0106010100011836</payload>
     </packet>
     <packet name="Read temperature">
       <payload>010400010001600A</payload>
@@ -19,6 +19,9 @@
     </packet>
     <packet name="Continuous Read Temperature and Humidity">
       <payload>010400010002200B</payload>
+    </packet>
+    <packet name="Modify Register and Baud Rate (3D)">
+      <payload>01100101000204000125807503</payload>
     </packet>
   </packets_list>
 </data>
